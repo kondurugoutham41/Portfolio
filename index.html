@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+    <a href="#" class="logo">Portfolio</a>
+    <i class="fa-solid fa-bars" id="menu-icon"></i>
+    <nav class="navbar">
+        <a href="#" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi, myself</h3>
+            <h1>GOUTHAM KONDURU </h1>
+            <h1>And I'm a <span class="multiple-text"></span></h1>
+            <p>
+                B.Tech in AI & Data Science | Skilled in Data Science | Passionate problem-solver | Eager to apply skills in real-world projects
+            </p>
+            <div class="social-media">
+                <a href="https://github.com/kondurugoutham41"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/konduru-goutham/"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+            <a href="#" class="btn">Download CV</a>
+        </div>
+        <div class="home-img">
+            <img src="images/profile_pic-removebg-preview.png" alt="img">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/profile_pic-removebg-preview.png" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About<span> Me</span></h2>
+            <h3>Data Scientist</h3>
+            <p> Hi! I'm Goutham, a passionate and driven tech enthusiast specializing in Data Science, Machine Learning, and Full-Stack Development. With hands-on experience in building real-time projects using Python, SQL, Power BI, and Flask, I thrive at the intersection of data and technology. I love turning raw data into meaningful insights and creating intelligent solutions that solve real-world problems. Currently, I’m focused on expanding my skills and contributing to impactful projects that blend innovation and analytics.</p>
+            <a href="#" class="btn">Read more</a>
+        </div>
+
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading"> My <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class="fa-solid fa-passport"></i>
+                <h3>Data Scientist</h3>
+                <p>I leverage data to uncover insights, build predictive models, and drive data-driven decisions. With strong analytical and programming skills, I develop end-to-end solutions from data collection to actionable results.</p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+            <div class="services-box">
+                <i class="fa-solid fa-chart-line"></i>
+                <h3>Data analyst</h3>
+                <p>I specialize in extracting meaningful insights from raw data using tools like SQL, Excel, and Power BI. I create clear dashboards, reports, and visualizations to support business decisions and strategy.</p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+            <div class="services-box">
+                <i class="fa-solid fa-robot"></i>
+                <h3>Machine learning Engineer</h3>
+                <p>I design and deploy machine learning models using algorithms like XGBoost, SVM, and neural networks. I handle model training, tuning, and deployment to solve real-world problems with automation and intelligence.</p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+            <div class="services-box">
+                <i class="fa-solid fa-database"></i>
+                <h3>Database Management</h3>
+                <p>I design, manage, and optimize databases using tools like MySQL and MongoDB. I ensure efficient data storage, retrieval, and integrity for scalable applications and data pipelines.</p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest<span>Projects</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/blinkit-sales-analysis.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Blinkit sales analysis</h3>
+                    <p>Conducted a comprehensive sales analysis for Blinkit, focusing on key performance metrics such as total sales, item types, outlet performance, customer ratings, and product visibility.</p>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/ischemic-prediction.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Ischemic strock prediction</h3>
+                    <p> This Project focuses on early prediction of ischemic stroke using a hybrid deep learning approach combining Convolution Neural Network (CNN) and Long Short Term Memory(LSTM) models.The goal is to enhance accuracy in identifying at risk individuals using lifestyle-related features</p>
+  </p>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portfolio.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>personal-Portfolio</h3>
+                    <p>Designed and developed a personal portfolio website using HTML, CSS, and JavaScript.Showcases my projects, skills, resume, and contact information.Responsive and user-friendly design suitable for desktop and mobile devices.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h2 class="heading">contact<span>Me</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile number">
+                <input type="text" placeholder="Email subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="your message"></textarea>
+            <input type="submit" value="send message" class="btn">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by @kondurugoutham04@gmail.com | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
